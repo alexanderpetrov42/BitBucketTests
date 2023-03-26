@@ -9,3 +9,7 @@ class LoginPageLocators:
     profile_button = (By.XPATH, "//header/div/div[4]")
     logout_button = (By.XPATH, "//span[text()=\"Log out\"]")
 
+class NavPageLocators:
+    switch_to_bitbucket = (By.XPATH, "//button[@role=\"presentation\"]")
+
+
